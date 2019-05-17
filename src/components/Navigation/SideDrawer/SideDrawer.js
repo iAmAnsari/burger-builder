@@ -19,7 +19,7 @@ const sideDrawer = (props) => {
 			<div className={attachClasses.join(' ')} >
 				<Logo height="11%" marginBottom="32px" />
 				<nav>
-					<NavigationItems />
+					<NavigationItems sideDrawerClose={props.closed} />
 				</nav>
 			</div>
 		</Aux>
